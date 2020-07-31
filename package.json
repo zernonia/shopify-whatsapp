@@ -1,0 +1,40 @@
+{
+  "name": "shopify-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@eastsideco/polaris-vue": "^0.1.19",
+    "@shopify/koa-shopify-auth": "^3.1.65",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa-send": "^5.0.1",
+    "koa-session": "^6.0.0",
+    "koa-static": "^5.0.0",
+    "koa-static-server": "^1.5.2",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "config": {
+    "nuxt": {
+      "host": "127.0.0.1",
+      "port": 3000
+    }
+  },
+  "engines": {
+    "node": "14.5.0"
+  }
+}
