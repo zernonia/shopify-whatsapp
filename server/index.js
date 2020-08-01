@@ -65,7 +65,7 @@ async function start () {
           body: JSON.stringify({
             script_tag: {
               event: "onload",
-              src: `https://${host}:${port}/scripts/whatsapp.js`
+              src: `https://cdn.jsdelivr.net/gh/zernonia/shopify-whatsapp@master/static/whatsapp-main.js`
             }
           })
         })
