@@ -48,7 +48,7 @@ var callback = () => {
   `
   target.insertAdjacentHTML('afterbegin', html)
   target.insertAdjacentHTML('afterbegin', styleHTML)
-  console.log('loaded button')
+  console.log('testing out jsDelivr')
 
 }
 
